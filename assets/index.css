@@ -1,54 +1,43 @@
 /* General */
 
 * {
-    box-sizing: border-box;
-	scroll-behavior: smooth;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  font-family: "Roboto", serif;
 }
 
-html {
-    -webkit-font-smoothing: antialiased;
-    height: 100%;
-	width: 100%;
-    overflow-y: scroll;
-    font-size: 100%;
-	margin: 0px;
-    padding: 0px;
-    overflow-x: hidden;
+html,
+body {
+  margin: 0;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
 }
 
 body {
-    width: 100%;
-    height: 100%;
-    margin: 0px;
-    padding: 0px;
-    overflow-x: hidden; 
-    text-align: left;
-    font-family: 'Roboto', serif;
-    font-size: 24px;
-    line-height: 200%;
-    color: #000000;
+  color: #000000;
+  font-size: 24px;
+  line-height: 200%;
+  text-align: left;
 }
 
 #wrapper-home {
-    max-width: 980px;
-    margin: auto;
-    flex: 1;
-    margin-top: 100px;
-	margin-bottom: 100px;
-    padding-left: 30px;
-    padding-right: 30px;
-    display: block;
+  max-width: 980px;
+  margin: auto;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  padding-left: 30px;
+  padding-right: 30px;
+  display: block;
 }
 
 #wrapper {
-    max-width: 980px;
-    margin: auto;
-    flex: 1;
-    margin-top: 250px;
-	margin-bottom: 100px;
-    padding-left: 30px;
-    padding-right: 30px;
-    display: block;
+  max-width: 980px;
+  margin: auto;
+  margin-top: 250px;
+  margin-bottom: 100px;
+  padding-left: 30px;
+  padding-right: 30px;
+  display: block;
 }
 
 /* Links */
@@ -62,247 +51,244 @@ a {
 }
 
 a::after {
-    content: '';
-    position: absolute;
-    z-index: -1;
-    width: 100%;
-    height: 3px;
-    left: 0;
-    bottom: 0;
-    background-color: #0000FF;
-    transition: all ease 0.3s;
- }
-  
+  content: "";
+  position: absolute;
+  z-index: -1;
+  width: 100%;
+  height: 3px;
+  left: 0;
+  bottom: 0;
+  background-color: #0000ff;
+  transition: all ease 0.3s;
+}
+
 a:hover {
-    color: white;
+  color: white;
 }
 a:hover::after {
-     height: 100%;
+  height: 100%;
 }
 
 .page-logo-link {
-	text-decoration: none;
-	position: static;
-  	display: block;
-  	color: #000000;
-  	padding: 0px;
-  	transition: none;
+  text-decoration: none;
+  position: static;
+  display: block;
+  color: #000000;
+  padding: 0px;
+  transition: none;
 }
 
 .page-logo-link::after {
-	content: '';
-    position: static;
-    z-index: 0;
-    width: 100%;
-    height: 0px;
-    left: 0;
-    bottom: 0;
-    background-color: none;
-    transition: none;
+  content: "";
+  position: static;
+  z-index: 0;
+  width: 100%;
+  height: 0px;
+  left: 0;
+  bottom: 0;
+  background-color: none;
+  transition: none;
 }
 
 .page-logo-link:hover {
-	background: none;
-	outline: 0px none #000000;
-	text-decoration: none;
+  background: none;
+  outline: 0px none #000000;
+  text-decoration: none;
 }
-
 
 /* Page layout */
 .intro-heading {
-	font-size: 60px;
-	font-family: "Arial", sans-serif;
-	font-weight: bold;
-	line-height: 125%;
-}
-
-.profile-photo {
-
+  font-size: 60px;
+  font-family: "Arial", sans-serif;
+  font-weight: bold;
+  line-height: 125%;
 }
 
 .post-profile-photo {
-	border-radius: 50%;
-	height: 7%;
-	width: 7%;
-	float: left;
-	margin: 50px;
-	-webkit-transition: -webkit-transform 1s ease-in-out;
-    transition: transform 1s ease-in-out;
+  border-radius: 50%;
+  height: 7%;
+  width: 7%;
+  float: left;
+  margin: 50px;
+  -webkit-transition: -webkit-transform 1s ease-in-out;
+  transition: transform 1s ease-in-out;
 }
 
 .post-profile-photo:hover {
-	-webkit-transform: rotate(360deg);
-	transform: rotate(360deg);
+  -webkit-transform: rotate(360deg);
+  transform: rotate(360deg);
 }
 
 .error-profile-photo {
-	border-radius: 50%;
-	height: 100%;
-	width: 100%;
+  border-radius: 50%;
+  height: 100%;
+  width: 100%;
 }
 
 .content {
-	max-width: 100%;
-	display: block;
-	margin-top: 30px;
+  max-width: 100%;
+  display: block;
+  margin-top: 30px;
 }
 
 .content2 {
-	max-width: 100%;
-	display: block;
-	margin-top: 30px;
-	font-size: 40px;
+  max-width: 100%;
+  display: block;
+  margin-top: 30px;
+  font-size: 40px;
 }
 
 .column {
-	width: 40%;
-	float: left;
-	margin: 5%;
+  width: 40%;
+  float: left;
+  margin: 5%;
 }
 
 #arrow-icon {
-	font-family: 100px;
-	font-weight: bold;
+  font-family: 100px;
+  font-weight: bold;
 }
 
 #spacer-bottom {
-	display: none;
+  display: none;
 }
 
 /* Headers */
 
-h1, h2, h3 {
-    font-family: "Arial", sans-serif;
-	font-weight: 900;
+h1,
+h2,
+h3 {
+  font-family: "Arial", sans-serif;
+  font-weight: 900;
 }
 
 h1 {
-    font-size: 70px;
-    line-height: 100px;
+  font-size: 70px;
+  line-height: 100px;
 }
 
 .intro-h1 {
-    text-align: center;	
+  text-align: center;
 }
 
 h2 {
-    font-size: 50px;
-    margin-top: 50px;
+  font-size: 50px;
+  margin-top: 50px;
 }
 
 h3 {
-    font-size: 40px;
+  font-size: 40px;
 }
 
 /* Other page styling */
 
 .writing-link {
-	display: block;
-	float: left;
-	margin-top: 60px;
-	margin-left: 25px;
+  display: block;
+  float: left;
+  margin-top: 60px;
+  margin-left: 25px;
 }
 
 .quote {
-    font-style: italic;
-	margin-left: 5%;
-	margin-top: 35px;
-	margin-bottom: 35px;
+  font-style: italic;
+  margin-left: 5%;
+  margin-top: 35px;
+  margin-bottom: 35px;
 }
 
 img {
-    max-width: 980px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    padding: 10px;
+  max-width: 980px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px;
 }
 
 li {
-    padding-bottom: 14px;
+  padding-bottom: 14px;
 }
 
 .writing-list {
-    list-style-type: none;
+  list-style-type: none;
 }
 
 .writing-list-item {
-    padding-bottom: 5%;	
+  padding-bottom: 5%;
 }
 
 hr {
-    margin-top: 45px;
+  margin-top: 45px;
 }
 
 /* Responsive */
 
 @media screen and (max-width: 600px) {
-.column {
-	width: 90%;
-	margin: 5%;
+  .column {
+    width: 90%;
+    margin: 5%;
   }
-img {
+  img {
     max-width: 300px;
   }
-h1 {
+  h1 {
     font-size: 70px;
   }
-.post-profile-photo {
-	border-radius: 50%;
-	height: 20%;
-	width: 20%;
-	margin: 50px;
-	margin-bottom: 10px;
-}
-.writing-link {
-	display: block;
-	float: left;
-	margin-top: 20px;
-	margin-left: 25px;
-	margin-right: 50px;
-}
+  .post-profile-photo {
+    border-radius: 50%;
+    height: 20%;
+    width: 20%;
+    margin: 50px;
+    margin-bottom: 10px;
+  }
+  .writing-link {
+    display: block;
+    float: left;
+    margin-top: 20px;
+    margin-left: 25px;
+    margin-right: 50px;
+  }
 }
 @media screen and (min-width: 600px) {
-.post-profile-photo {
-	border-radius: 50%;
-	height: 15%;
-	width: 15%;
-	margin: 50px;
-	margin-bottom: 10px;
-}
+  .post-profile-photo {
+    border-radius: 50%;
+    height: 15%;
+    width: 15%;
+    margin: 50px;
+    margin-bottom: 10px;
+  }
 }
 @media screen and (min-width: 768px) {
-.post-profile-photo {
-	border-radius: 50%;
-	height: 10%;
-	width: 10%;
-	margin: 50px;
+  .post-profile-photo {
+    border-radius: 50%;
+    height: 10%;
+    width: 10%;
+    margin: 50px;
+  }
 }
-} 
 
 @media screen and (min-width: 992px) {
-.post-profile-photo {
-	border-radius: 50%;
-	height: 9%;
-	width: 9%;
-	margin: 50px;
+  .post-profile-photo {
+    border-radius: 50%;
+    height: 9%;
+    width: 9%;
+    margin: 50px;
+  }
 }
-} 
 
 @media screen and (min-width: 1100px) {
-.post-profile-photo {
-	border-radius: 50%;
-	height: 8%;
-	width: 8%;
-	margin: 50px;
-}
+  .post-profile-photo {
+    border-radius: 50%;
+    height: 8%;
+    width: 8%;
+    margin: 50px;
+  }
 }
 
 @media screen and (min-width: 1200px) {
-.post-profile-photo {
-	border-radius: 50%;
-	height: 7%;
-	width: 7%;
-	margin: 50px;
-}
+  .post-profile-photo {
+    border-radius: 50%;
+    height: 7%;
+    width: 7%;
+    margin: 50px;
+  }
 }
