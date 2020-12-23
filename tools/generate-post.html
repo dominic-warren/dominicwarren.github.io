@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Dominic Warren • Content Designer and UX Writer</title>
+    <meta
+      name="description"
+      content="Dominic is a content designer and UX writer based in Brighton."
+    />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <link type="text/plain" rel="author" href="/humans.txt" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Libre+Baskerville:400,700|Roboto:400,400i,700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/assets/index.css" />
+    <link
+      rel="apple-touch-icon"
+      sizes="57x57"
+      href="/assets/icons/apple-icon-57x57.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="60x60"
+      href="/assets/icons/apple-icon-60x60.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="72x72"
+      href="/assets/icons/apple-icon-72x72.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="76x76"
+      href="/assets/icons/apple-icon-76x76.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="114x114"
+      href="/assets/icons/apple-icon-114x114.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="120x120"
+      href="/assets/icons/apple-icon-120x120.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="144x144"
+      href="/assets/icons/apple-icon-144x144.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="152x152"
+      href="/assets/icons/apple-icon-152x152.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="/assets/icons/apple-icon-180x180.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="192x192"
+      href="/assets/icons/android-icon-192x192.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="/assets/icons/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="96x96"
+      href="/assets/icons/favicon-96x96.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="/assets/icons/favicon-16x16.png"
+    />
+    <link rel="icon" href="/assets/favicon.ico" type="image/x-icon" />
+    <link rel="manifest" href="/assets/manifest.json" />
+    <meta
+      name="msapplication-TileImage"
+      content="/assets/icons/ms-icon-144x144.png"
+    />
+    <meta name="msapplication-TileColor" content="#ffffff" />
+    <meta name="theme-color" content="#ffffff" />
+    <link rel="stylesheet" href="/tools/tools.css" />
+  </head>
+  <body>
+    <div class="page-logo">
+      <a class="page-logo-link" href="http://dominicwarren.com/"
+        ><img
+          alt="Dominic Warren"
+          class="post-profile-photo"
+          src="/assets/Dominic Warren - Summer - 2019.jpg"
+      /></a>
+    </div>
+
+    <main id="wrapper">
+      <div class="content">
+        <h1>Generate Post</h1>
+        <p>
+          Write your post in markdown and watch it magically transform into html
+          suitable for
+          <a href="https://dominicwarren.com/">Dominic Warren</a>.
+        </p>
+        <section class="split-screen">
+          <div class="panel">
+            <label for="title">Page Title:</label>
+            <input id="title" name="title" />
+          </div>
+          <div class="panel">
+            <label for="description">Description:</label>
+            <input id="description" name="description" />
+          </div>
+        </section>
+        <div class="controls">
+          <button id="switchBtn" class="btn"><span>View Raw</span></button>
+          <a id="downloadBtn" class="btn hidden">
+            <span>Download</span>
+          </a>
+        </div>
+        <section class="split-screen">
+          <div class="panel">
+            <label for="markdown">Create your post:</label>
+            <textarea id="markdown" name="markdown" rows="20" cols="50">
+# Hello, this is an example post
+          
+You can write all sorts of details here. Use [markdown](https://www.markdownguide.org/getting-started/) syntax to add **flavour** and functionality to your posts.</textarea
+            >
+          </div>
+          <div class="panel">
+            <label for="html">Watch it come to life:</label>
+            <div id="htmlDisplay" class="display"></div>
+            <textarea
+              id="html"
+              name="html"
+              rows="20"
+              cols="50"
+              class="hidden"
+            ></textarea>
+          </div>
+        </section>
+      </div>
+    </main>
+
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"
+    ></script>
+    <script type="text/javascript" src="/tools/vendor/purify.min.js"></script>
+    <script type="text/javascript" src="/tools/generate-post.js"></script>
+  </body>
+</html>

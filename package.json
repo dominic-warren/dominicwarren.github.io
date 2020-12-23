@@ -1,0 +1,22 @@
+{
+  "name": "website",
+  "version": "1.0.0",
+  "description": "My personal website",
+  "author": "Dominic Warren",
+  "license": "UNLICENSED",
+  "private": true,
+  "homepage": "https://dominicwarren.com/",
+  "scripts": {
+    "start": "http-server -c-1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dominic-warren/dominicwarren.github.io.git"
+  },
+  "bugs": {
+    "url": "https://github.com/dominic-warren/dominicwarren.github.io/issues"
+  },
+  "devDependencies": {
+    "http-server": "^0.12.3"
+  }
+}
