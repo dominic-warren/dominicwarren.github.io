@@ -1,4 +1,3 @@
-var convertBtn = document.getElementById("convertBtn");
 var switchBtn = document.getElementById("switchBtn");
 var downloadBtn = document.getElementById("downloadBtn");
 
@@ -72,5 +71,5 @@ function convertMarkdown(shouldDownload) {
 
 convertMarkdown();
 
-convertBtn.addEventListener("click", convertMarkdown);
+mdBox.addEventListener("input", convertMarkdown);
 switchBtn.addEventListener("click", switchDisplay);
