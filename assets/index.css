@@ -123,6 +123,11 @@ h3 {
 
 /* Other page styling */
 
+hr {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
 .writing-link {
 	display: block;
 	float: left;
