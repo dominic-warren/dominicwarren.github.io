@@ -7,6 +7,6 @@ Location: Brighton, United Kingdom
 Name: Albie, the dog
        
 /* SITE */
-Last update: October 2021
+Last update: July 2022
 Languages: HTML, CSS
 Software: Github
