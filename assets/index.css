@@ -111,6 +111,8 @@ h2 {
 
 h3 {
     font-size: 30px;
+    margin-bottom: -2px;
+    padding-top: 15px;
 }
 
 .portfolio-description {
@@ -149,6 +151,10 @@ img {
 
 li {
     padding-bottom: 14px;
+}
+
+.dinkus {
+    font-size: 30px;
 }
 
 
