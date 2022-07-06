@@ -24,7 +24,7 @@ body {
     overflow-x: hidden; 
     text-align: left;
     font-family: 'Libre Baskerville', serif;
-    font-size: 24px;
+    font-size: 18px;
     line-height: 1.3em;
     color: #000000;
 }
@@ -91,7 +91,6 @@ a:hover::after {
 h1, h2, h3 {
     font-family: 'Libre Baskerville', serif;
     font-weight: 400;
-    margin-bottom: -10px;
 }
 
 h1 {
