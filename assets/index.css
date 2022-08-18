@@ -23,7 +23,7 @@ body {
     padding: 0px;
     overflow-x: hidden; 
     text-align: left;
-    font-family: 'Libre Baskerville', serif;
+    font-family: Georgia, serif;
     font-size: 18px;
     line-height: 1.3em;
     color: #000000;
@@ -89,7 +89,7 @@ a:hover::after {
 /* Headers */
 
 h1, h2, h3 {
-    font-family: 'Libre Baskerville', serif;
+    font-family: Arial, sans-serif;
     font-weight: 400;
 }
 
