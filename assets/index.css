@@ -25,7 +25,6 @@ body {
     text-align: left;
     font-family: Georgia, serif;
     font-size: 18px;
-    line-height: 1.3em;
     color: #000000;
 }
 
@@ -95,7 +94,6 @@ h1, h2, h3 {
 
 h1 {
     font-size: 60px;
-    line-height: 70px;
     margin-bottom: 20px;
 }
 
@@ -119,8 +117,7 @@ h3 {
 
 .portfolio-description {
     color: #999999;
-    font-style: italic;
-    margin-bottom: -40px;	
+    font-style: italic;	
 }
 
 
@@ -169,7 +166,13 @@ li {
 	width: 100%;
 }
 h1 {
-    font-size: 70px;
+    font-size: 35px;
   }
+h2 {
+    font-size: 25px;
+}
 
+h3 {
+    font-size: 20px;
+}
 }
