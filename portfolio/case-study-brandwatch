@@ -1,0 +1,79 @@
+<!DOCTYPE html> 
+
+<html> 
+
+<head> 
+<title>Case study: Brandwatch design system &mdash; Dominic Warren</title> 
+<meta name="description" content="A case study of work I did at Brandwatch.">
+<link type="text/plain" rel="author" href="/humans.txt">
+<meta name="viewport" content="width=device-width, initial-scale=1"> 
+<meta http-equiv="X-UA-Compatible" content="ie=edge"> 
+<meta charset='utf-8'> 
+<link rel="stylesheet" href="/assets/index.css"> 
+<link rel="shortcut icon" href="/assets/favicon.ico" type="image/x-icon"> 
+<link rel="icon" href="/assets/favicon.ico" type="image/x-icon"> 
+</head> 
+
+
+<body>
+
+<div id="wrapper"> 
+
+<a class="back-button" href="http://dominicwarren.com/">Back</a>
+
+<div class="content">
+ 
+<p class="portfolio-description">Case study: Brandwatch</p>
+<h1>Including a content style guide in the Brandwatch design system</h1>
+
+<h2>Contents</h2>
+<ul>
+<li><a href="#Overview">Overview</a></li>
+<li><a href="#ProblemStatement">Problem statement</a></li>
+<li><a href="#Users">Users and audience</a></li>
+<li><a href="#Roles">Roles and responsibilities</a></li>
+<li><a href="#Scope">Scope and constraints</a></li>
+<li><a href="#Process">Process</a></li>
+<li><a href="#Results">Results</a></li>
+</ul>
+
+<h2 id="Overview">Overview</h2>
+<p>Updating and redesigning the Brandwatch design system while also including the new content style guide.</p>
+
+<h2 id="ProblemStatement">Problem statement</h2>
+<p>Brandwatch is a growing social data company. As part of this there were lots of new features and products being designed and improved-upon. Making sure we brought content design best practice and consistency across all of this was important and crucial for a better and more trustworthy user experience.</p>
+
+<h2 id="Users">Users and audience</h2>
+<p>Brandwatch’s users were quite specific. Mostly used by data analysts and similar roles, those that used the software had a relatively high level of understanding when it came to writing queries, organising and analysing data, and presenting that data back to their companies.</p>
+
+<h2 id="Roles">Roles and responsibilities</h2>
+<p>As Brandwatch’s first content designer I had a lot of responsibility in advocating and educating across the company. The design system was being built alongside the UI design team. We also had contact with a select few developers in the Engineering team.</p>
+
+<h2 id="Scope">Scope and constraints</h2>
+<p>For this project, there were few constraints as it was a team-initiated project. However, it was important what we produced could work across the whole Brandwatch product suite. It would set the standard for how we approach UI design and content design. It had to be definitive while also leaving room for changes and updates.</p>
+
+<h2 id="Process">Process</h2>
+<h3>Process TL;DR</h3>
+
+
+<hr></hr>
+
+<p>I started at Brandwatch as their first content designer. It’s not the first time in my career where I’ve been the first or only one. So early on I did what I usually do — open a blank document and start recording anything content style-related. This includes acronym definitions, key terms and content decisions I’ve made (linking to relevant research or evidence). These bare bones soon take on the form of a simple style guide.</p>
+
+<p>Once I’ve built this document out to a decent level, I share the link with the wider Product Design team. This is so they can see the sorts of things content design can do for them, but also so they can be more empowered to make those decisions themselves. As an individual content designer, there are only so many projects I can help with!</p>
+
+<p>When I shared this at Brandwatch, the Head of UI and the rest of the UI Design team showed me their design system. It had been around for a little while, so they were beginning to update and improve it now. So it was the perfect time for a content designer to not only write content for it, but to add some content style guidelines.</p>
+
+
+<h2 id="Results">Results</h2>
+<p>Together we produced a great, accessible design system. By combining design and content, we improved how people gathered and understood the information. And it also showed how content and design are connected to each other, rather than separate things.</p>
+
+<p>When it went live we got good feedback from our colleagues in the Product Design team, as well as in the Engineering team. We also started seeing our colleagues referencing it in crit sessions and show and tell meetings.</p>
+
+<p>We also made it clear, while we had “completed” the project, it was ongoing too. We wanted input from our colleagues, including the UX researchers, to continue making the design system usable and relevant.</p>
+
+</div>
+</div>
+
+</body>
+</html>
