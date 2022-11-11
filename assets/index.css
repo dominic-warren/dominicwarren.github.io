@@ -24,7 +24,7 @@ body {
     overflow-x: hidden; 
     text-align: left;
     font-family: Georgia, serif;
-    font-size: 18px;
+    font-size: 1rem;
     color: #000000;
 }
 
@@ -87,22 +87,22 @@ h1, h2, h3 {
 }
 
 h1 {
-    font-size: 60px;
+    font-size: 170%;
     margin-bottom: 20px;
 }
 
 .error-heading {
-    font-size: 40px;
+    font-size: 150%;
     margin-top: 40px;
 }
 
 h2 {
-    font-size: 40px;
+    font-size: 150%;
     padding-top: 15px;
 }
 
 h3 {
-    font-size: 30px;
+    font-size: 130%;
 }
 
 .h3-portfolio {
