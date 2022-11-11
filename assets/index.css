@@ -37,6 +37,11 @@ body {
     display: block;
 }
 
+.content {
+	display: block;
+	margin-top: 5%;
+}
+
 /* Links */
 a {
   position: relative;
