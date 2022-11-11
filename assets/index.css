@@ -153,3 +153,14 @@ li {
 
 
 
+@media screen and (min-width: 914px) {
+#wrapper {
+    max-width: 80%;
+    margin: auto;
+    flex: 1;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    display: block;
+}
+}
+
