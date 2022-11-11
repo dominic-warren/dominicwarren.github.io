@@ -153,7 +153,7 @@ li {
 
 
 
-@media screen and (min-width: 914px) {
+@media screen and (max-width: 900px) {
 #wrapper {
     max-width: 80%;
     margin: auto;
