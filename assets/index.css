@@ -29,11 +29,11 @@ body {
 }
 
 #wrapper {
-    max-width: 85%;
+    max-width: 65%;
     margin: auto;
     flex: 1;
-    margin-top: 10%;
-    margin-bottom: 10%;
+    margin-top: 5%;
+    margin-bottom: 5%;
     display: block;
 }
 
