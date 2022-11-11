@@ -73,13 +73,6 @@ a:hover::after {
 }
 
 
-/* Profile photo */
-
-.profile-photo {
-	max-width: 100%;
-}
-
-
 /* Headers */
 
 h1, h2, h3 {
@@ -138,8 +131,8 @@ img {
     margin-right: auto;
 }
 
-.work-img {
-   padding-bottom: 10px;	
+.portfolio-img {
+   padding-bottom: 2%;	
 }
 
 li {
