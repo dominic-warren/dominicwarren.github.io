@@ -89,16 +89,19 @@ h1, h2, h3 {
 
 h1 {
     font-size: 350%;
+    line-height: 100%;
     margin-bottom: 20px;
 }
 
 .error-heading {
     font-size: 200%;
+    line-height: 100%;
     margin-top: 40px;
 }
 
 h2 {
     font-size: 200%;
+    line-height: 100%;
     padding-top: 15px;
 }
 
@@ -147,3 +150,6 @@ li {
     font-size: 150%;
     text-align: center;
 }
+
+
+
