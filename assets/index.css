@@ -39,7 +39,7 @@ body {
 
 .content {
 	display: block;
-	margin-top: 10%;
+	margin-top: 3%;
 }
 
 /* Links */
@@ -75,8 +75,7 @@ a:hover::after {
 /* Profile photo */
 
 .profile-photo {
-	height: 85%;
-	width: 85%;
+	max-width: 100%;
 }
 
 
