@@ -162,5 +162,11 @@ li {
     margin-bottom: 5%;
     display: block;
 }
+	
+h1 {
+    font-size: 250%;
+    line-height: 100%;
+    margin-bottom: 20px;
+}
 }
 
