@@ -87,22 +87,22 @@ h1, h2, h3 {
 }
 
 h1 {
-    font-size: 170%;
+    font-size: 350%;
     margin-bottom: 20px;
 }
 
 .error-heading {
-    font-size: 150%;
+    font-size: 200%;
     margin-top: 40px;
 }
 
 h2 {
-    font-size: 150%;
+    font-size: 200%;
     padding-top: 15px;
 }
 
 h3 {
-    font-size: 130%;
+    font-size: 150%;
 }
 
 .h3-portfolio {
