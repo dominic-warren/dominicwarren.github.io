@@ -115,6 +115,30 @@ h3 {
 }
 
 
+/* Navigation */
+.navigation {
+    display: block;
+}
+
+.nav1 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.nav2 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.nav3 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
 /* Other page styling */
 .face-img {
     max-width: 35%;
