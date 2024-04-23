@@ -2,11 +2,8 @@
 /* TEAM */
 Your title: Dominic Warren                       
 Location: Brighton, United Kingdom
-
-/* THANKS */
-Name: Albie, the dog
        
 /* SITE */
-Last update: July 2022
+Last update: April 2024
 Languages: HTML, CSS
 Software: Github
