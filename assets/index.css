@@ -118,6 +118,7 @@ h3 {
 /* Navigation */
 .navigation {
     display: block;
+    text-align: center;
 }
 
 .nav1 {
