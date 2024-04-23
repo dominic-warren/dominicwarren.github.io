@@ -76,7 +76,7 @@ a:hover::after {
 /* Headers */
 
 .home-heading {
-    font-family: Arial, sans-serif
+    font-family: Arial, sans-serif;
     font-weight: 700;
     font-size: 200%;
 }
