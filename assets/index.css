@@ -75,7 +75,7 @@ a:hover::after {
 
 /* Headers */
 
-home-heading {
+.home-heading {
     font-family: Arial, sans-serif
     font-weight: 700;
     font-size: 200%;
@@ -115,6 +115,13 @@ h3 {
 
 
 /* Other page styling */
+.face-img {
+    max-width: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 
 .writing-link {
 	display: block;
