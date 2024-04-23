@@ -21,9 +21,9 @@ body {
     height: 100%;
     margin: 0px;
     padding: 0px;
-    overflow-x: hidden; 
+    overflow-x: hidden;
     text-align: left;
-    font-family: Georgia, serif;
+    font-family: Arial, sans-serif;
     font-size: 1.1rem;
     color: #000000;
     line-height: 135%;
@@ -64,7 +64,7 @@ a::after {
     background-color: #20A6FF;
     transition: all ease 0.3s;
  }
-  
+
 a:hover {
     color: white;
 }
@@ -74,6 +74,12 @@ a:hover::after {
 
 
 /* Headers */
+
+home-heading {
+    font-family: Arial, sans-serif
+    font-weight: 700;
+    font-size: 200%;
+}
 
 h1, h2, h3 {
     font-family: Arial, sans-serif;
@@ -104,7 +110,7 @@ h3 {
 
 .portfolio-description {
     color: #999999;
-    font-style: italic;	
+    font-style: italic;
 }
 
 
@@ -132,7 +138,7 @@ img {
 }
 
 .portfolio-img {
-   padding-bottom: 2%;	
+   padding-bottom: 2%;
 }
 
 li {
@@ -155,11 +161,10 @@ li {
     margin-bottom: 5%;
     display: block;
 }
-	
+
 h1 {
     font-size: 250%;
     line-height: 100%;
     margin-bottom: 20px;
 }
 }
-
