@@ -127,22 +127,25 @@ h3 {
 
 .nav1 {
     display: inline-block;
+    float: left;
     margin: auto;
-    width: 26.6%;
+    width: 33.3%;
     text-align: center;
 }
 
 .nav2 {
     display: inline-block;
+    float: left;
     margin: auto;
-    width: 26.6%;
+    width: 33.3%;
     text-align: center;
 }
 
 .nav3 {
     display: inline-block;
+    float: left;
     margin: auto;
-    width: 26.6%;
+    width: 33.3%;
     text-align: center;
 }
 
