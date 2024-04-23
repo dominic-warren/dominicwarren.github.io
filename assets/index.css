@@ -126,24 +126,21 @@ h3 {
 }
 
 .nav1 {
-    display: block;
+    display: inline-block;
     margin: auto;
     width: 26.6%;
-    float: left;
 }
 
 .nav2 {
-    display: block;
+    display: inline-block;
     margin: auto;
     width: 26.6%;
-    float: left;
 }
 
 .nav3 {
-    display: block;
+    display: inline-block;
     margin: auto;
     width: 26.6%;
-    float: left;
 }
 
 
