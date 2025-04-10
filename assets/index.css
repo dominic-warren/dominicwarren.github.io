@@ -116,6 +116,28 @@ h3 {
     font-style: italic;
 }
 
+.portfolio-heading-h1 {
+    font-family: Arial, sans-serif;
+    font-weight: 700;
+    font-size: 200%;
+    line-height: 100%;
+    margin-bottom: 20px;
+}
+
+.portfolio-heading-h2 {
+    font-family: Arial, sans-serif;
+    font-weight: 700;
+    font-size: 150%;
+    line-height: 100%;
+    padding-top: 15px;
+}
+
+.portfolio-heading-h3 {
+    font-family: Arial, sans-serif;
+    font-weight: 700;
+    font-size: 125%;
+}
+
 
 /* Navigation */
 .navigation {
