@@ -80,11 +80,13 @@ a:hover::after {
     font-weight: 700;
     font-size: 200%;
     line-height: 100%;
+    letter-spacing: 2px;
 }
 
 h1, h2, h3 {
     font-family: "Sequel 100 Wide 95";
     font-weight: 700;
+    letter-spacing: 2px;
 }
 
 h1 {
@@ -118,6 +120,7 @@ h3 {
 /* Navigation */
 .navigation {
     font-family: "Sequel 100 Wide 95";
+    letter-spacing: 2px;
     width: 100%;
     margin: auto;
     display: block;
