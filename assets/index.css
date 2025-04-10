@@ -122,6 +122,7 @@ h3 {
     font-size: 200%;
     line-height: 100%;
     margin-bottom: 20px;
+    letter-spacing: 0px;
 }
 
 .portfolio-heading-h2 {
@@ -130,12 +131,14 @@ h3 {
     font-size: 150%;
     line-height: 100%;
     padding-top: 15px;
+    letter-spacing: 0px;
 }
 
 .portfolio-heading-h3 {
     font-family: Arial, sans-serif;
     font-weight: 700;
     font-size: 125%;
+    letter-spacing: 0px;
 }
 
 
