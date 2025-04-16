@@ -76,7 +76,7 @@ a:hover::after {
 /* Headers */
 
 .home-heading {
-    font-family: "Sequel 100 Wide 95";
+    font-family: Arial, sans-serif;
     font-weight: 700;
     font-size: 200%;
     line-height: 100%;
@@ -84,7 +84,7 @@ a:hover::after {
 }
 
 h1, h2, h3 {
-    font-family: "Sequel 100 Wide 95";
+    font-family: Arial, sans-serif;
     font-weight: 700;
     letter-spacing: 2px;
 }
@@ -146,7 +146,7 @@ h3 {
 
 /* Navigation */
 .navigation {
-    font-family: "Sequel 100 Wide 95";
+    font-family: Arial, sans-serif;
     letter-spacing: 2px;
     width: 100%;
     margin: auto;
@@ -233,9 +233,6 @@ li {
     text-align: center;
 }
 
-@import url(https://db.onlinewebfonts.com/c/d002e7c91b889cc10ce21789cfde95dd?family=Sequel+100+Wide+95);
-
-
 @media screen and (max-width: 900px) {
 #wrapper {
     max-width: 80%;
@@ -257,7 +254,4 @@ h1 {
 .face-img {
     max-width: 75%;
 }
-	
-.navigation {
-    font-size: 75%;
 }
