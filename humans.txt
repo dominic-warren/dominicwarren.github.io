@@ -4,6 +4,6 @@ Your title: Dominic Warren
 Location: Brighton, United Kingdom
        
 /* SITE */
-Last update: April 2024
+Last update: June 2026
 Languages: HTML, CSS
 Software: Github
